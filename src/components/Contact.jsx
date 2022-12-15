@@ -80,7 +80,7 @@ const Contact = () => {
           <input
             type="text"
             placeholder="Your Message"
-            required
+            required={true}
             value={message}
             onChange={(e) => setMessage(e.target.value)}
           />
